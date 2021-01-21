@@ -1,0 +1,240 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size:15px;;
+}
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:black;
+    color: white;
+}
+.steps{
+    width:auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin:30px;
+}
+
+#step1,#step2,#step3,#step4{
+    padding:5px 10px;
+    border-style:none;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#step1{
+    background-color: #2196f380;
+}
+
+#form1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding:2rem;
+    height:300px;
+    width:900px;
+}
+
+label[for="people"],
+label[for="meal"],
+label[for="restaurant"],
+label[for="dish"],
+label[for="servings"] {
+    display: block;
+    padding:10px;
+    width: 260px;
+    margin:auto;
+}
+
+select[name="meal"],
+select[name="restaurant"],
+select[name="select1"]
+ {
+    width:130px;
+    padding:1px;
+    display: block;
+    margin: auto;
+}
+
+input[type="number"]    {
+    width:100px;
+    margin: auto;
+    display: block;
+}
+
+#mealDiv,#peopleDiv,#restaurantDiv{
+     padding:10px;
+}
+
+#nextForm1,#nextForm2,#prevForm2{
+    float:right;
+    padding: 2px;
+    width: 65px;
+}
+
+#nextDivForm1{
+    align-self: flex-end;
+}
+
+/*******form2*****************/
+#form2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding:2rem;
+    height:300px;
+    width:900px;
+    display: none;
+}
+
+#nextDivForm2{
+    align-self: flex-end;
+    margin-right: 75px;
+    padding: 46px;
+}
+
+#prevDivForm2{
+    margin-right: 653px;
+    margin-top: -63px;
+}
+
+#restaurantDiv{
+    margin: auto;
+    width: 212px;
+}
+
+/**************form3**********/
+#form3{
+    display: none;
+}
+
+.dishesContainer{
+    width: 416px;
+    margin: auto;
+}
+
+/* #dishDiv */
+label[for="dish"]{
+    margin-right:5px;
+    display: inline-block;
+}
+
+select[id = "select1"] {
+    margin-left:30px;
+    display:-webkit-box;
+}
+/* #servingsDiv  */
+label[for="servings"]{
+    display: inline-block;
+    position: relative;
+    bottom: 55px;
+    left: 195px;
+}
+
+#getInfo1 input[type="number"]    {
+    width:40px;
+    display: inline-block;
+    position: relative;
+    bottom: 28px;
+}
+
+label[for="servings"] {
+    width:215px;
+}
+
+#nextDivForm3,
+#prevDivForm3{
+    display: inline-block;
+    margin-top: 100px;
+    width:150px;
+}
+
+#nextDivForm3{
+    float:right;
+    margin-right: 150px;
+}
+
+#prevDivForm3{
+    margin-left: 200px;
+    margin-top:50px;
+}
+
+#addMore{
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    padding:2px;
+    margin-left: 343px;
+    margin-top: 26px;
+}
+
+
+/******************reviewData*****************************/
+#reviewData{
+    width:500px;
+    margin:auto;
+    display: none;
+}
+
+p{
+    display: inline-block;
+    width:200px;
+    padding:1rem;
+}
+
+.dishes{
+    border: 2px solid black;
+    display: inline-block;
+    width:200px;
+}
+
+#submit,#cancelOrder,#prevReviewData{
+    color:white;
+    margin-top:5rem;
+    font-size:1.5rem;
+    background-color: red;
+    padding:5px;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-color: lightgreen;
+}
+
+#prevReviewData{
+    background-color: blue;
+}
+
+#prevReviewData:hover{
+    background-color: skyblue;
+}
+
+#cancelOrder:hover {
+    background-color: #e86868;
+}
+
+#submit{
+    background-color: green;
+}
+
+#step5{
+    display:none;
+}
+
+h1{
+    color:green;
+    font-size:2rem;
+    width:600px;
+    margin:auto;
+}
+
+#crossIcon1{
+    display:inline-block;
+}
